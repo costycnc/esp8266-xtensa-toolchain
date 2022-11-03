@@ -93,23 +93,25 @@ They will never be overwritten nor automatically updated.
 './.vimrc' -> '/home/costycnc/.vimrc'
 
 costycnc@costycnc-PC MINGW32 ~
->>>>>$ mkdir -p ~/esp
+>>command>>>$ mkdir -p ~/esp
 
 costycnc@costycnc-PC MINGW32 ~
->>>>>$ cd ~/esp
+>>command>>>$ cd ~/esp
 
 costycnc@costycnc-PC MINGW32 ~/esp
 $
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"
+>>command>>>$ export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ printenv PATH
+>>command>>>$ printenv PATH
+>>response>>>
 /mingw32/bin:/usr/local/bin:/usr/bin:/bin:/c/Windows/System32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/opt/xtensa-esp32-elf/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/costycnc/esp/xtensa-lx106-elf/bin
 
 costycnc@costycnc-PC MINGW32 ~/esp
 >>>>>$ git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git
+>>>>>
 Cloning into 'ESP8266_RTOS_SDK'...
 remote: Enumerating objects: 29400, done.
 remote: Counting objects: 100% (870/870), done.
@@ -173,6 +175,7 @@ costycnc@costycnc-PC MINGW32 ~/esp
 
 costycnc@costycnc-PC MINGW32 ~/esp
 >>>>>$ printenv IDF_PATH
+>>>>>
 /home/costycnc/esp/ESP8266_RTOS_SDK
 
 costycnc@costycnc-PC MINGW32 ~/esp
