@@ -1,11 +1,11 @@
 # esp8266-xtensa-toolchain
 install esp8266 xtensa toolchain
 
-                        video tutorial https://www.youtube.com/watch?v=9k2NUEowhUg
-                        --------------------------------------------------------------------------------------------------------
-                        page tutorial https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html
-                        download Toolchain Setup https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip
-                        extract
+video tutorial https://www.youtube.com/watch?v=9k2NUEowhUg
+--------------------------------------------------------------------------------------------------------
+page tutorial https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html
+download Toolchain Setup https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip
+extract
                         
                         copy msys32 folder directly to C:
                         apri command prompt and write this  
