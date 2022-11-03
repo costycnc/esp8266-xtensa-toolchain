@@ -286,6 +286,7 @@ App "hello-world" version: 1
 
 costycnc@costycnc-PC MINGW32 ~/esp/hello_world
 > make flash
+
 Toolchain path: /home/costycnc/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc
 Toolchain version: esp-2020r3-49-gd5524c1
 Compiler version: 8.4.0
