@@ -185,6 +185,7 @@ Python 2.7.15
 
 costycnc@costycnc-PC MINGW32 ~/esp
 >command python2.7 -m pip install --user -r $IDF_PATH/requirements.txt
+
 Requirement already satisfied: setuptools in c:/msys32/mingw32/lib/python2.7/site-packages (from -r C:/msys32/home/costycnc/esp/ESP8266_RTOS_SDK/requirements.txt (line 4)) (40.4.3)
 Collecting click>=5.0 (from -r C:/msys32/home/costycnc/esp/ESP8266_RTOS_SDK/requirements.txt (line 8))
   Downloading https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82kB)
