@@ -19,6 +19,15 @@ extract
                         -------------------------------------
                         mkdir -p ~/esp  >>  this command will create esp folder in C:\msys32\home\user directory
                         cd ~/esp   >> this command will go to this directory
+now download and extract 
+
+Download the toolchain for the ESP8266
+v8.4.0
+
+https://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zip
+
+and copy xtensa-lx106-elf folder to esp folder
+
                         export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"  >> create environment path 
                         printenv PATH  >> verify if is created 
                         git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git >> this command will install ESP8266_RTOS_SDK in esp folder
