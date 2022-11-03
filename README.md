@@ -106,8 +106,7 @@ costycnc@costycnc-PC MINGW32 ~/esp
 
 costycnc@costycnc-PC MINGW32 ~/esp
 >command   printenv PATH
->response
->
+
 /mingw32/bin:/usr/local/bin:/usr/bin:/bin:/c/Windows/System32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/opt/xtensa-esp32-elf/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/costycnc/esp/xtensa-lx106-elf/bin
 
 costycnc@costycnc-PC MINGW32 ~/esp
