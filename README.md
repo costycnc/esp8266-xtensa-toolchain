@@ -93,10 +93,10 @@ They will never be overwritten nor automatically updated.
 './.vimrc' -> '/home/costycnc/.vimrc'
 
 costycnc@costycnc-PC MINGW32 ~
->>command>>>$ mkdir -p ~/esp
+>command   $ mkdir -p ~/esp
 
 costycnc@costycnc-PC MINGW32 ~
->>command>>>$ cd ~/esp
+>command   $ cd ~/esp
 
 costycnc@costycnc-PC MINGW32 ~/esp
 $
