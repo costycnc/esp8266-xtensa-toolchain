@@ -21,6 +21,7 @@ apri command prompt and write this
                         -------------------------------------
                         mkdir -p ~/esp  >>  this command will create esp folder in C:\msys32\home\user directory
                         cd ~/esp   >> this command will go to this directory
+                        
 now download and extract 
 
 Download the toolchain for the ESP8266
@@ -31,6 +32,7 @@ https://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zip
 and copy xtensa-lx106-elf folder to esp folder
 
 and continue with commands in mingw32 window
+
                         continue with all commands one by one in new opened mingw32 window
                         -------------------------------------
                         export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"  >> create environment path 
