@@ -51,7 +51,7 @@ and continue with commands in mingw32 window
 
 -----------------------------------------------------------------------------------------------------
 bellow a copy of all commands and response in mingw32
- i put > where i inserted command ( for easy control)
+ i put > where i inserted command ( for watch easy )
 ----------------------------------------------------------------------------------------------------------
 
 Copying skeleton files.
