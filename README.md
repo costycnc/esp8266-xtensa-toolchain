@@ -171,19 +171,20 @@ Submodule path 'components/mbedtls/mbedtls': checked out '9ef92c551eb8d92677034c
 Submodule path 'components/mqtt/esp-mqtt': checked out '01594bf118ae502b5a0ead040446f2be75d26223'
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ export IDF_PATH="$HOME/esp/ESP8266_RTOS_SDK"
+>command export IDF_PATH="$HOME/esp/ESP8266_RTOS_SDK"
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ printenv IDF_PATH
->>>>>
+>command printenv IDF_PATH
+
 /home/costycnc/esp/ESP8266_RTOS_SDK
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ python --version
+>command python --version
+
 Python 2.7.15
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ python2.7 -m pip install --user -r $IDF_PATH/requirements.txt
+>command python2.7 -m pip install --user -r $IDF_PATH/requirements.txt
 Requirement already satisfied: setuptools in c:/msys32/mingw32/lib/python2.7/site-packages (from -r C:/msys32/home/costycnc/esp/ESP8266_RTOS_SDK/requirements.txt (line 4)) (40.4.3)
 Collecting click>=5.0 (from -r C:/msys32/home/costycnc/esp/ESP8266_RTOS_SDK/requirements.txt (line 8))
   Downloading https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82kB)
@@ -206,38 +207,41 @@ Installing collected packages: click, pyelftools
 Successfully installed click-7.1.2 pyelftools-0.29
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ dir
+> dir
 ESP8266_RTOS_SDK  xtensa-lx106-elf
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ cd ESP8266_RTOS_SDK/
+> cd ESP8266_RTOS_SDK/
 
 costycnc@costycnc-PC MINGW32 ~/esp/ESP8266_RTOS_SDK
->>>>>$ cd examples
+> cd examples
 
 costycnc@costycnc-PC MINGW32 ~/esp/ESP8266_RTOS_SDK/examples
->>>>>$ dir
+> dir
+
 common_components  peripherals  provisioning  storage  wifi
 get-started        protocols    README.md     system
 
 costycnc@costycnc-PC MINGW32 ~/esp/ESP8266_RTOS_SDK/examples
->>>>>$ cd get-started
+> cd get-started
 
 costycnc@costycnc-PC MINGW32 ~/esp/ESP8266_RTOS_SDK/examples/get-started
->>>>>$ dir
+> dir
+
 hello_world
 
 costycnc@costycnc-PC MINGW32 ~/esp/ESP8266_RTOS_SDK/examples/get-started
->>>>>$ cd ~/esp
+> cd ~/esp
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ cp -r $IDF_PATH/examples/get-started/hello_world .
+> cp -r $IDF_PATH/examples/get-started/hello_world .
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ cd hello_world
+> cd hello_world
 
 costycnc@costycnc-PC MINGW32 ~/esp/hello_world
->>>>>$ make menuconfig
+> make menuconfig
+
 make[1]: Entering directory '/home/costycnc/esp/ESP8266_RTOS_SDK/tools/kconfig'
 /usr/bin/gcc -c  -I/usr/include/ncursesw -DCURSES_LOC="<curses.h>"  -DNCURSES_WIDECHAR=1 -DLOCALE -MMD -MP -I "." -I "/home/costycnc/esp/ESP8266_RTOS_SDK/tools/kconfig"  /home/costycnc/esp/ESP8266_RTOS_SDK/tools/kconfig/mconf.c -o mconf.o
 flex -L -Pzconf -ozconf.lex.c /home/costycnc/esp/ESP8266_RTOS_SDK/tools/kconfig/zconf.l
@@ -280,7 +284,7 @@ will not use 'git describe' to determine PROJECT_VER.
 App "hello-world" version: 1
 
 costycnc@costycnc-PC MINGW32 ~/esp/hello_world
->>>>>$ make flash
+> make flash
 Toolchain path: /home/costycnc/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc
 Toolchain version: esp-2020r3-49-gd5524c1
 Compiler version: 8.4.0
