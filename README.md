@@ -1,7 +1,7 @@
 # esp8266-xtensa-toolchain
 install esp8266 xtensa toolchain
 
-video tutorial https://www.youtube.com/watch?v=9k2NUEowhUg
+video tutorial https://www.youtube.com/watch?v=9k2NUEowhUg from where im inspired ... thank you!
 
 --------------------------------------------------------------------------------------------------------
 
