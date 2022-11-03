@@ -77,7 +77,7 @@ make flash  >> compile and flash esp8266
 
 -----------------------------------------------------------------------------------------------------
 bellow a copy of all commands and response in mingw32
- i put >>>>> where i inserted command ( for easy control)
+ i put > where i inserted command ( for easy control)
 ----------------------------------------------------------------------------------------------------------
 
 Copying skeleton files.
@@ -110,8 +110,8 @@ costycnc@costycnc-PC MINGW32 ~/esp
 /mingw32/bin:/usr/local/bin:/usr/bin:/bin:/c/Windows/System32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/opt/xtensa-esp32-elf/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/costycnc/esp/xtensa-lx106-elf/bin
 
 costycnc@costycnc-PC MINGW32 ~/esp
->>>>>$ git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git
->>>>>
+>command git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git
+
 Cloning into 'ESP8266_RTOS_SDK'...
 remote: Enumerating objects: 29400, done.
 remote: Counting objects: 100% (870/870), done.
