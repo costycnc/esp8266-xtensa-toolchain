@@ -1,79 +1,79 @@
 # esp8266-xtensa-toolchain
 install esp8266 xtensa toolchain
 
-video tutorial https://www.youtube.com/watch?v=9k2NUEowhUg
+                         video tutorial https://www.youtube.com/watch?v=9k2NUEowhUg
 
---------------------------------------------------------------------------------------------------------
+                         --------------------------------------------------------------------------------------------------------
 
-page tutorial https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html
+                         page tutorial https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html
 
-download Toolchain Setup https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip
+                         download Toolchain Setup https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip
 
-extract
+                         extract
 
-copy msys32 folder directly to C:
-
-
-
- apri command prompt and write this >>    \msys32\mingw32   << this command will open migw32 window
- 
- next all commands in mingw32 window
+                        copy msys32 folder directly to C:
 
 
-  mkdir -p ~/esp  >>  this command will create esp folder in C:\msys32\home\user directory
+
+                         apri command prompt and write this >>    \msys32\mingw32   << this command will open migw32 window
+
+                         next all commands in mingw32 window
 
 
-  cd ~/esp   >> this command will go to this directory
+                          mkdir -p ~/esp  >>  this command will create esp folder in C:\msys32\home\user directory
 
 
-  export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"  >> create environment path 
+                          cd ~/esp   >> this command will go to this directory
 
 
-  printenv PATH  >> verify if is created 
+                          export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"  >> create environment path 
 
 
-  git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git >> this command will install ESP8266_RTOS_SDK in esp folder
+                          printenv PATH  >> verify if is created 
 
 
-  export IDF_PATH="$HOME/esp/ESP8266_RTOS_SDK"  >>create environment path IDF_PATH
+                          git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git >> this command will install ESP8266_RTOS_SDK in esp folder
 
 
-  printenv IDF_PATH  >> verify if is created
+                          export IDF_PATH="$HOME/esp/ESP8266_RTOS_SDK"  >>create environment path IDF_PATH
 
 
-   python --version   >>see python version
-
-   python2.7 -m pip install --user -r $IDF_PATH/requirements.txt  >> install requirements
+                          printenv IDF_PATH  >> verify if is created
 
 
-  dir  >> verify 
+                           python --version   >>see python version
+
+                           python2.7 -m pip install --user -r $IDF_PATH/requirements.txt  >> install requirements
 
 
-cd ESP8266_RTOS_SDK/   >> goto ESP8266_RTOS_SDK directory
-
-cd examples  >> goto examples
-
-dir  >> list
+                          dir  >> verify 
 
 
-cd get-started  >> go to get-started
+                        cd ESP8266_RTOS_SDK/   >> goto ESP8266_RTOS_SDK directory
+
+                        cd examples  >> goto examples
+
+                        dir  >> list
 
 
-dir  >list
+                        cd get-started  >> go to get-started
 
 
-cd ~/esp  >> go to esp directory
+                        dir  >list
 
 
-cp -r $IDF_PATH/examples/get-started/hello_world .  >> copy hello_world to esp directory
+                        cd ~/esp  >> go to esp directory
 
 
-cd hello_world   >> go to hello_world directory
+                        cp -r $IDF_PATH/examples/get-started/hello_world .  >> copy hello_world to esp directory
 
 
-make menuconfig  >> open menuconfig and set port where is connect module esp8266
+                        cd hello_world   >> go to hello_world directory
 
-make flash  >> compile and flash esp8266
+
+                        make menuconfig  >> open menuconfig and set port where is connect module esp8266
+
+                        make flash  >> compile and flash esp8266
 
 -----------------------------------------------------------------------------------------------------
 bellow a copy of all commands and response in mingw32
