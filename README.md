@@ -11,9 +11,11 @@ download Toolchain Setup https://dl.espressif.com/dl/esp32_win32_msys2_environme
 
 extract
                         
-                        copy msys32 folder directly to C:
-                        apri command prompt and write this  
-                        \msys32\mingw32   << this command will open migw32 window
+copy msys32 folder directly to C:
+
+apri command prompt and write this  
+                        
+\msys32\mingw32   << this command will open migw32 window
                         
                         next all commands one by one in new opened mingw32 window
                         -------------------------------------
@@ -29,7 +31,8 @@ https://dl.espressif.com/dl/xtensa-lx106-elf-gcc8_4_0-esp-2020r3-win32.zip
 and copy xtensa-lx106-elf folder to esp folder
 
 and continue with commands in mingw32 window
-
+                        continue with all commands one by one in new opened mingw32 window
+                        -------------------------------------
                         export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"  >> create environment path 
                         printenv PATH  >> verify if is created 
                         git clone --recursive https://github.com/espressif/ESP8266_RTOS_SDK.git >> this command will install ESP8266_RTOS_SDK in esp folder
